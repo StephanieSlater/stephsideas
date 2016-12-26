@@ -12,7 +12,7 @@ gulp.task('html', () => {
     .pipe(rename({
       extname: '.html'
     }))
-    .pipe(gulp.dest('./dist'));
+    .pipe(gulp.dest('./docs'));
 });
 
 gulp.task('default', ['html']);
