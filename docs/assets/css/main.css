@@ -2779,7 +2779,7 @@
 			min-height: 23em;
 			overflow: hidden;
 			position: relative;
-			width: 40%;
+			width: 50%;
 		}
 
 			.tiles article .image {
@@ -2819,7 +2819,7 @@
 				display: block;
 				height: 100%;
 				left: 0;
-				opacity: 0.85;
+				opacity: 0.7; /* CHANGE OPACITY OF TILES HERE */
 				position: absolute;
 				width: 100%;
 				z-index: 2;
@@ -2853,24 +2853,28 @@
 				opacity: 0;
 			}
 
-			.tiles article:nth-child(4n - 1), .tiles article:nth-child(4n - 2) {
+			/*.tiles article:nth-child(4n - 1), .tiles article:nth-child(4n - 2) {
 				width: 60%;
-			}
+			}*/
 
 			.tiles article:nth-child(6n - 5):before {
-				background-color: #6fc3df;
+				/*background-color: #6fc3df;*/
+				background-color: #4158a4;
 			}
 
 			.tiles article:nth-child(6n - 4):before {
-				background-color: #8d82c4;
+				/*background-color: #8d82c4;*/
+				background-color: #8e699d;
 			}
 
 			.tiles article:nth-child(6n - 3):before {
-				background-color: #ec8d81;
+				/*background-color: #ec8d81;*/
+				background-color: #666;
 			}
 
 			.tiles article:nth-child(6n - 2):before {
-				background-color: #e7b788;
+				/*background-color: #e7b788;*/
+				background-color: #c44e4c;
 			}
 
 			.tiles article:nth-child(6n - 1):before {
@@ -2878,7 +2882,7 @@
 			}
 
 			.tiles article:nth-child(6n):before {
-				background-color: #87c5a4;
+				background-color: #555;
 			}
 
 		@media screen and (max-width: 1280px) {
